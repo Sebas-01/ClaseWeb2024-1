@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background-color: black;
+color:#f9f9e7;
+/*esto sirve para agrandar el texto lo que yo necesite*/
+font-size: 1.5rem;
+font-family: Helvetica;
+height: 100vh;
+width: 100%;
+}
+
+
+.profile{
+background-color:#525252;
+border-radius: 25px;
+width: 80% ;
+padding:40px;
+}
+
+section .profile__avatar{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    
+}
+
+section .profile__name{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+ .uno .profile__city{
+
+text-align: center;
+ 
+}
+section button:first-child{
+    background-color: #3b103a;
+    color:#f9f9e7 ;
+    border-radius: 5px;
+}
+
+section button:last-child{
+    color: #f9f9e7;
+    background-color: #f3c06f;
+    border-radius:5px ;
+}
+section button:nth-child(4){
+    color: #f9f9e7;
+    background-color: #2f16ec;
+    border-radius: 5px;
+}
+
+section button > p{
+font-weight: 700;
+}
+
+.profile__btn{
+    display: flex;
+    
+}
+section .uno{
+    display: flex;
+    align-items: center;
+    
+}
